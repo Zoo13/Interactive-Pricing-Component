@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <h1>Simple, traffic-based pricing</h1>
+            <h2>Sign-up for our 30-day trial.
+                No credit card required. </h2>
+        </div>
+    </header>
+    <main>
+        <div class="main-cont">
+            <div class="top-cont">
+                <h3 id="views">100K PAGEVIEWS</h3>
+                <input class="range" type="range" id="rangeinput" oninput="toggleSteps(this)" 
+                    min="1" max="5" value="3" step="1">
+                <div class="amount-cont">
+                    <h3 id="amount"> $ 16.00 </h3>
+                    <p> / month </p>
+                </div>
+                <div class="month-year">
+                    <h3> Monthly Billing </h3>
+                    <div class="on-off" id="on-off">
+                        <div id="turn"></div>
+                    </div>
+                    <h3> Yearly Billing </h3>
+                    <div class="cont25">
+                        <p> 25% </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-cont">
+                <div class="cheks">
+                    <h3>Unlimited websites</h3>
+                    <h3>100% data ownership </h3>
+                    <h3>Email reports</h3>
+                </div>
+                <button id="startBtn"> Start my trial </button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
